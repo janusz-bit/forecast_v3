@@ -1,0 +1,20 @@
+.venv/
+.venv-nix-backup/
+.direnv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+result
+result-*
+.DS_Store
+.streamlit/secrets.toml
+
+# Local notes and working documents
+docs/

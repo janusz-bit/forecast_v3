@@ -1,0 +1,28 @@
+{
+  "training_end": "2024-01-02",
+  "training_days": 732,
+  "model_training_days": 677,
+  "selection": "I select variants and parameters by MAE on the same 28 days; I tune LightGBM in a loop",
+  "models": {
+    "history": {
+      "mean28": "28-day mean",
+      "lasso": "Lasso + AR(1)",
+      "lightgbm": "LightGBM",
+      "prophet": "Prophet"
+    },
+    "known_plan": {
+      "mean28": "28-day mean",
+      "lasso": "Lasso",
+      "lightgbm": "LightGBM",
+      "prophet": "Prophet"
+    }
+  },
+  "scenarios": {
+    "history": "History only",
+    "known_plan": "Known prices and promotions"
+  },
+  "selected_models": {
+    "history": "lasso",
+    "known_plan": "lasso"
+  }
+}
